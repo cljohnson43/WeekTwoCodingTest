@@ -10,7 +10,7 @@ class QuestionTwoTest {
     fun subStrings() {
         val q2 = QuestionTwo()
 
-        val arg = "fro"
+        val arg = "from"
         val expected: List<String> = listOf(
             "f", "fr", "fro", "fo", "r", "ro", "o", ""
         ).sorted()
